@@ -16,7 +16,7 @@ export default function Projects() {
               <img
                 src={weather}
                 alt="placeholder"
-                className="lg:w-full md:w-9"
+                className="xl:w-auto md:w-10"
               ></img>
             </div>
             <div className="col aboutme">
@@ -36,7 +36,7 @@ export default function Projects() {
               <img
                 src={trinkomat}
                 alt="placeholder"
-                className="lg:w-5 md:w-full"
+                className="xl:w-auto md:w-10"
               ></img>
             </div>
             <div className="col aboutme">
@@ -60,7 +60,7 @@ export default function Projects() {
               <img
                 src={adventure}
                 alt="placeholder"
-                className="md:w-full"
+                className="xl:w-full lg:w-10"
               ></img>
             </div>
             <div className="col aboutme">
