@@ -7,7 +7,12 @@ export default function About() {
     <div className="About" id="about">
       <div className="grid flex flex-wrap justify-content-center">
         <div className="md:col-6 lg:col-6 hidden md:block align-content-center">
-          <img src={avatar} alt="placeholder" className="avatar"></img>
+          <img
+            src={avatar}
+            alt="placeholder"
+            className="avatar"
+            height="300"
+          ></img>
         </div>
         <div className="col">
           <p className="aboutme-head">About Me</p>
@@ -34,7 +39,7 @@ export default function About() {
             </span>
             <br></br>
             The five stages of expertise are novice, advanced beginner,
-            competent, proficient, and expert.
+            competent, proficient, and expert (least to most expertise)
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3 justify-center m-0">
             <div className="flex flex-column">
