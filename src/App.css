@@ -7,6 +7,7 @@
   background-size: cover;
 }
 
+
 .logo {
   background-color:#ff9d2dbb;
   border-radius: 10px;
@@ -22,6 +23,11 @@
   color: #742AEA;
 }
 
+.p-menuitem-content:hover * {
+  background: #742AEA;
+  color: #EFF3F8;
+  border-radius: 10px;
+}
 
 .p-menubar .p-menuitem.p-highlight > .p-menuitem-content {
   background: #6c5b9349;
@@ -33,7 +39,7 @@
   right: 0;
   width: 80px;
   height: 100px;
-  background-color: #FF9D2D;
+  background-color: #ff9d2d;
   margin-left: auto;
   transition: all 1s ease-in-out;
   border-radius: 10px 0 0 10px;
@@ -248,7 +254,7 @@
   padding-top: 25px;
   padding: 25px;
   border-radius: 80% 20% 20% 80% / 50% 50% 50% 50% ;
-  max-width: 90%;
+  max-width: 80%;
   background-color: #eff3f859;
 }
 
@@ -258,7 +264,7 @@
   padding-top: 25px;
   padding: 25px;
   border-radius: 50% 50% 50% 50% / 90% 10% 90% 10% ;
-  max-width: 90%;
+  max-width: 80%;
   background-color: #eff3f859;
 }
 
@@ -268,7 +274,7 @@
   padding-top: 25px;
   padding: 25px;
   border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
-  max-width: 90%;
+  max-width: 80%;
   background-color: #eff3f859;
 }
 
@@ -326,6 +332,12 @@ a:visited {
   border: none;
 }
 
+.p-accordion-header:hover * {
+  background-color: #742AEA;
+  color: #EFF3F8;
+  border: none;
+}
+
 .projects-head {
   color: #EFF3F8;
   font-size: 24px;
@@ -340,9 +352,58 @@ a:visited {
   text-align: center;
 }
 
+a.contact{
+  color: #EFF3F8;
+  font-size: 20px;
+}
+
 .contact {
   color: #EFF3F8;
   font-size: 20px;
+  text-align: center;
+}
+
+::placeholder {
+  color: #742aea83;
+}
+
+.p-inputgroup, .p-inputtex, .p-component, .p-inputgroup-addon {
+  color: #742AEA;
+}
+
+.eform {
+  margin: 0 auto;
+}
+
+.eform.Button {
+  background-color: #EFF3F8;
+}
+
+.eform.Button:hover {
+  background-color: #742AEA;
+  color: #EFF3F8;
+  border-color: #742AEA;
+}
+
+.p-inputgroup-addon {
+  background-color: #742AEA;
+  color: #EFF3F8;
+  border-color: #742AEA;
+}
+
+
+
+@media (max-width:1300px) {
+
+  .About {
+    max-width: 90%;
+  }
+
+  .project-java {
+    max-width: 100%;
+  }
+
+
 }
 
 @media (max-width:810px) {
@@ -357,15 +418,33 @@ a:visited {
   }
 
   .About {
+    margin-top: 50px;
     border-radius: 10px;
+    max-width: 90%;
   }
 
   .descript {
-    font-size: 20px;
+    border-radius: 10px;
+    font-size: 22px;
+    max-width: 90%;
 
   }
 
+  .Projects {
+    margin-top: 50px;
+    border-radius: 10px;
+    max-width: 90%;
+  }
 
+  .project-java {
+    max-width: 100%;
+  }
+
+  .Contact {
+    margin-top: 50px;
+    border-radius: 10px;
+    max-width: 90%;
+  }
 
 }
 
@@ -383,7 +462,9 @@ a:visited {
   }
 
   .descript {
-    font-size: 16px;
+    width: 90%;
+    border-radius: 10px;
+    font-size: 18px;
     margin-top: 50px;
   }
 
@@ -391,8 +472,19 @@ a:visited {
     font-size: 100px;
   }
 
+  .Projects {
+    max-width: 90%;
+    border-radius: 10px;
+  }
+
   .project-java {
-    max-width: 50px;
+    max-width: 100%;
+  }
+
+  .Contact {
+    margin-top: 50px;
+    border-radius: 10px;
+    max-width: 90%;
   }
 
 

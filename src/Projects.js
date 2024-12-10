@@ -60,7 +60,7 @@ export default function Projects() {
               <img
                 src={adventure}
                 alt="placeholder"
-                className="xl:w-full lg:w-10"
+                className="xl:w-full lg:w-10 project-java"
               ></img>
             </div>
             <div className="col aboutme">

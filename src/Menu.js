@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import { Menubar } from "primereact/menubar";
-import logo from "./sidebarcat.png";
+import logo from "./catpreview.jpg";
 
 export default function Menu() {
   const items = [
@@ -28,7 +28,7 @@ export default function Menu() {
   ];
 
   const start = (
-    <img alt="logo" src={logo} height="40" className="mx-2 logo"></img>
+    <img alt="logo" src={logo} height="50" className="mx-2 logo"></img>
   );
 
   return (
